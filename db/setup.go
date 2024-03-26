@@ -7,6 +7,7 @@ import (
 
 type Table interface {
     Add(item *models.Item) error
+    All() ([]*models.Item, error)
     Get(idx int) (*models.Item, error)
     Update(idx int, item *models.Item) error
 }
@@ -19,6 +20,10 @@ func NewDB() Table {
     return &internalDB {
         data: make([]*models.Item, 0),
     }
+}
+
+func (d *internalDB) All() ([]*models.Item, error) {
+    return d.data, nil
 }
 
 func (d *internalDB) Add(item *models.Item) error {
