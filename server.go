@@ -1,9 +1,9 @@
 package main
 
 import (
-	"infoto-web-2/routes"
-	"infoto-web-2/db"
-	"infoto-web-2/models"
+	"htmx-test/routes"
+	"htmx-test/db"
+	"htmx-test/models"
 )
 
 func main() {

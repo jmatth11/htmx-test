@@ -1,4 +1,4 @@
-module infoto-web-2
+module htmx-test
 
 go 1.22.1
 

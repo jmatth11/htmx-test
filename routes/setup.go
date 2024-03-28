@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"infoto-web-2/db"
-	"infoto-web-2/helpers"
-	"infoto-web-2/models"
+	"htmx-test/db"
+	"htmx-test/helpers"
+	"htmx-test/models"
 	"net/http"
 	"strconv"
 

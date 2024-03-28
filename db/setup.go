@@ -2,7 +2,7 @@ package db
 
 import (
 	"errors"
-	"infoto-web-2/models"
+	"htmx-test/models"
 )
 
 type Table interface {
